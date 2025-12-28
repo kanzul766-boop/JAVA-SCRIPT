@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Chapter 1</title>
+    <script>
+        alert("Hello from Head!");
+    </script>
+    <style>
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <p>
+        Practice placement of
+        <script></script> element in following sections of your project in exercise 6:
+        a. Head
+        b. Body (before your page’s HTML)
+        c. Body (inside your page’s HTML)
+        d. Body (after your page’s HTML)
+    </p>
+
+
+
+    <script>
+        alert("Hello from Body before HTML!");
+    </script>
+
+
+
+    <button onclick="showAlert()">Show Alert</button>
+
+
+
+    <script>
+        alert("Hello from inside the Body HTML!");
+    </script>
+
+
+    <script src="chapter1.js"></script>
+</body>
+<script>
+    alert("Hello from after the Body HTML!");
+</script>
+
+</html>
