@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a href="#" onclick="Swal.fire({
+  title:' Good job!',
+  text: 'You clicked the link!',
+  icon: 'success'
+});">please click this link</a>
+
+  <hr>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/mob1.jpg" class=" cardimg card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Oppo A6. </h5>
+          <p class="card-text">
+          <ul>
+            <li>Display: 6.75 inches, 120Hz refresh rate LCD display.</li>
+            <li>Processor: Qualcomm Snapdragon 685 Mobile Platform.</li>
+            <li>Battery: A large 7000mAh capacity battery.</li>
+            <li>Camera: 50MP main rear camera and an 8MP front camera.</li>
+            <li>Storage: Available in options such as 8GB RAM with 128GB or 256GB storage.</li>
+            <h5 class="card-title">price:</h5>
+            <li>New (PTA Approved):Around PKR 267,999. </li>
+            <li>Non-PTA: A non-PTA version might be around PKR 113,000. </li>
+          </ul>
+          <button type="button" class="btn btn-secondary"
+            onclick='Swal.fire("Thanks for purchacing a mobile for us!");'>Purchase</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/mob2.webp" class=" cardimg card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Apple iPhone 15 or Apple iPhone 15 Plus. </h5>
+          <p class="card-text">
+          <ul>
+            <li>Design: It features an innovative design with an <br> aerospace-grade aluminum enclosure  and color-infused <br>
+              glass back, protected by a Ceramic Shield front.
+            </li>
+            <li>Display: The device has a Super Retina XDR display with the "Dynamic Island," which bubbles up alerts
+              and Live Activities. </li>
+            <li>Camera: It is equipped with an advanced dual-camera system, including a 48MP main camera for taking
+              super-high-resolution photos with great detail. </li>
+            <li>Performance: The phone is powered by the A16 Bionic chip, ensuring smooth multitasking and responsive
+              performance. </li>
+            <li>Connectivity: It supports 5G connectivity, Wi-Fi 6, <br> Bluetooth 5.3, and features a USB-C port for
+              charging and data transfer</li>
+            <h5 class="card-title">price:</h5>
+            <li>New (PTA Approved): Around PKR 267,999. </li>
+            <li>Non-PTA: A non-PTA version might be around PKR 113,000. </li>
+          </ul>
+          <button type="button" class="btn btn-secondary"
+            onclick='Swal.fire("Thanks for purchacing a mobile for us!");'>Purchase</button>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/mob3.webp" class="cardimg card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Xiaomi Redmi A5. </h5>
+          <p class="card-text">
+          <ul>
+            <li>Display: It features a large 6.88-inch HD+ IPS LCD display. </li>
+            <li>Processor: The device is powered by a UNISOC T7250 octa-core processor. </li>
+            <li>Camera: It includes a 32MP main rear camera and an 8MP front camera. </li>
+            <li>Battery: It has a 5200mAh typical capacity battery with 15W fast charging support.
+            </li>
+            <li>Operating System: It typically runs on Android 15 (Go Edition). </li>
+            <h5 class="card-title">price:</h5>
+            <li>New (PTA Approved):Around PKR 267,999. </li>
+            <li>Non-PTA: A non-PTA version might be around PKR 113,000.</li>
+          </ul>
+          <button type="button" class="btn btn-secondary"
+            onclick='Swal.fire("Thanks for purchacing a mobile for us!");'>Purchase</button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th id="fline">No </th>
+        <th id="fline">image</th>
+        <th id="fline">name</th>
+        <th id="fline">telephone</th>
+        <th id="fline">almat</th>
+        <th id="fline">Aski</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="peach">
+        <th id="sline">01</th>
+        <th id="sline"><img id="gmi" src="./img/pngtree-watercolor-christmas-doll-png-image_13124119.png"></th>
+        <th id="sline">Tokey Ghoul</th>
+        <th id="sline">+6281923452876</th>
+        <th id="sline">Tokyo</th>
+        <th id="sline">
+          <button id="edit-btn" onclick='deleteRow(this)'>DELETE</button>
+        </th>
+      </tr>
+      <tr class="grey">
+        <th id="tline">02</th>
+        <th id="tline"><img id="gmi" src="./img/watercolor-doll-illustration-toys-cute-600nw-2422273227.webp"></th>
+        <th id="tline">Miremichey</th>
+        <th id="tline">+6281923452876</th>
+        <th id="tline">New Island</th>
+        <th id="tline">
+          <button id="edit-btn" onclick='deleteRow(this)'>DELETE</button>
+        </th>
+      </tr>
+      <tr class="peach">
+        <th id="sline">03</th>
+        <th id="sline"><img id="gmi" src="./img/pngtree-watercolor-christmas-doll-png-image_13124122.png"></th>
+        <th id="sline">Kenja no mago</th>
+        <th id="sline">+6281923452876</th>
+        <th id="sline">Britan</th>
+        <th id="sline">
+          <button id="edit-btn" onclick='deleteRow(this)'>DELETE</button>
+        </th>
+        </th>
+      </tr>
+      <tr class="grey">
+        <th id="sline">04</th>
+        <th id="sline"><img id="gmi" src="./img/pngtree-watercolor-christmas-doll-png-image_13124119.png"></th>
+        <th id="sline">Tokey Ghoul</th>
+        <th id="sline">+6281923452876</th>
+        <th id="sline">Tokyo</th>
+        <th id="sline">
+          <button id="edit-btn" onclick='deleteRow(this)'>DELETE</button>
+        </th>
+      </tr>
+      <tr class="peach">
+        <th id="tline">05</th>
+        <th id="tline"><img id="gmi" src="./img/watercolor-doll-illustration-toys-cute-600nw-2422273227.webp"></th>
+        <th id="tline">Miremichey</th>
+        <th id="tline">+6281923452876</th>
+        <th id="tline">New Island</th>
+        <th id="tline">
+          <button id="edit-btn" onclick='deleteRow(this)'>DELETE</button>
+        </th>
+      </tr>
+      <tr class="grey">
+        <th id="sline">06</th>
+        <th id="sline"><img id="gmi" src="./img/pngtree-watercolor-christmas-doll-png-image_13124122.png"></th>
+        <th id="sline">Kenja no mago</th>
+        <th id="sline">+6281923452876</th>
+        <th id="sline">Britan</th>
+        <th id="sline">
+          <button id="edit-btn" onclick='deleteRow(this)'>DELETE</button>
+        </th>
+        </th>
+      </tr>
+      <tr class="peach">
+        <th id="sline">07</th>
+        <th id="sline"><img id="gmi" src="./img/pngtree-watercolor-christmas-doll-png-image_13124119.png"></th>
+        <th id="sline">Tokey Ghoul</th>
+        <th id="sline">+6281923452876</th>
+        <th id="sline">Tokyo</th>
+        <th id="sline">
+          <button id="edit-btn" onclick='deleteRow(this)'>DELETE</button>
+        </th>
+      </tr>
+      <tr class="grey">
+        <th id="tline">08</th>
+        <th id="tline"><img id="gmi" src="./img/watercolor-doll-illustration-toys-cute-600nw-2422273227.webp"></th>
+        <th id="tline">Miremichey</th>
+        <th id="tline">+6281923452876</th>
+        <th id="tline">New Island</th>
+        <th id="tline">
+          <button id="edit-btn" onclick='deleteRow(this)'>DELETE</button>
+        </th>
+      </tr>
+      <tr class="peach">
+        <th id="sline">09</th>
+        <th id="sline"><img id="gmi" src="./img/pngtree-watercolor-christmas-doll-png-image_13124122.png"></th>
+        <th id="sline">Kenja no mago</th>
+        <th id="sline">+6281923452876</th>
+        <th id="sline">Britan</th>
+        <th id="sline">
+          <button id="edit-btn" onclick='deleteRow(this)'>DELETE</button>
+        </th>
+        </th>
+      </tr class="grey">
+        <th id="sline">10</th>
+        <th id="sline"><img id="gmi" src="./img/pngtree-watercolor-christmas-doll-png-image_13124122.png"></th>
+        <th id="sline">Kenja no mago</th>
+        <th id="sline">+6281923452876</th>
+        <th id="sline">Britan</th>
+        <th id="sline">
+          <button id="edit-btn" onclick='deleteRow(this)'>DELETE</button>
+        </th>
+        </th>
+      </tr>
+      <tr>
+        </tbody>
+  </table>
+
+  <hr>
+
+  <img src="./img/easy-kawaii-bear-drawing-8.jpg" onmouseover="src='./img/istockphoto-2156242112-612x612.jpg'"
+    onmouseout="src='./img/easy-kawaii-bear-drawing-8.jpg'">
+
+  <hr>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

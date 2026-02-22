@@ -1,0 +1,62 @@
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+#fline {
+  background-color: #0C9999;
+  color: #ffffffff;
+  border: 1px solid #35bfc6f9;
+}
+
+#sline {
+  background-color: #F5F5F5;
+  border: 1px solid rgba(128, 128, 128, 0#433);
+}
+
+#tline {
+  border: 1px solid rgba(128, 128, 128, 0#384);
+  background-color: #FAEBD6;
+}
+
+th {
+  padding: 8px;
+  text-align: center;
+}
+
+#gmi{
+  border: 4px solid #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#edit-btn {
+  border-radius: 10px;
+  background-color: #96213a;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cardimg{
+  width: 40%;
+}
+.btn{
+  margin-left: 70%;
+}
+
+.grey{
+  background-color: #333;
+}
+.peach{
+  background-color:antiquewhite;
+}
